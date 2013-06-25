@@ -1,0 +1,55 @@
+body
+{
+    margin:0px;
+    padding:0px;  
+    background-color:#ccc; 
+    font-family:calibri;
+}
+#wrapper
+{
+    width:300px;
+    background-color:#efefef;
+    margin:20px;
+    padding:5px;
+}
+
+#RightClickMenu
+{
+    margin:30px;
+    padding:10px;
+    list-style:none;
+    background-color:White;
+    border-radius:10px;
+
+	
+}
+
+#RightClickMenu li
+{
+    margin: 0px 10px;
+    width:190px;
+    border-bottom: 1px dotted #ddd;
+	padding:0px 4px;
+	height:30px;
+}
+
+#RightClickMenu li:hover{ background-color:#bdbdbd;}
+
+#RightClickMenu li a
+{
+    text-decoration: none;
+    color:#666;
+    height: 30px;
+    line-height:30px;
+
+	
+}
+
+#RightClickMenu li:hover  ul li a {color:#666; font-weight:bold;}
+
+#RightClickMenu li img
+{
+    margin:3px 10px -3px 0px;
+	
+}
+
